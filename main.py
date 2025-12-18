@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV, Strati
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
 # Loads the dataset
-data = torch.load("dataset/chroma_tensors.pt")
+data = torch.load("chroma_tensors.pt")
 X_pt = data["X"]
 Y_pt = data["y"]
 
